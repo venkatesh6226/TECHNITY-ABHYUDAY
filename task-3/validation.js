@@ -18,6 +18,7 @@ form.addEventListener('submit',(e)=>{
 })
 
 function validate(){
+    count = 0;
     let nameValue = uname.value
     let emailValue = email.value
     let passwordValue = password.value
