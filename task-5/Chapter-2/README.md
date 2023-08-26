@@ -33,7 +33,7 @@
     '<' Less than  
     '>' Greater than  
     '<=' Less than or equal to  
-    '>=' Greater than or equal to  
+    '>=' Greater than or equal to
 
 7. Equal to(==) operator compares two values and evaluate to a boolean value, whereas assignment operator(=) stores a value in a variable.
 
@@ -51,14 +51,14 @@
          print('bacon')  
 
     Block 3:  
-        print('ham')  
+        print('ham')
 
 10.  if spam == '1':  
         print('Hello')  
     elif spam == '2':  
         print('Howdy')  
     else:  
-        print('Greetings!')  
+        print('Greetings!')
 
 11. CTRL+C can be used to stop a program.
 
@@ -74,6 +74,6 @@
         i = 1  
         while i <= 10:  
             print(i)  
-            i = i + 1  
+            i = i + 1
 
 15. spam.bacon()
