@@ -1,0 +1,28 @@
+#include <stdio.h>
+long sumOfMultiples(int x, int y);
+long sum_Multiples(int n);
+
+int main() {
+    int t;
+    scanf("%d", &t);
+
+    for (int i = 0; i < t; i++) {
+        int N;
+        scanf("%d", &N);
+
+        long result = sum_Multiples(N);
+        printf("%ld\n", result);
+    }
+
+    return 0;
+}
+long sumOfMultiples(int x, int y) {
+    long k = y / x;
+    return x * (k * (k + 1)) / 2;
+}
+long sum_Multiples(int n){
+    n--;
+    long sum = 0;
+    sum = sumOfMultiples(3,n) + sumOfMultiples(5,n) - sumOfMultiples(15,n);
+    return sum;
+}

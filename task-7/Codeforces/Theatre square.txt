@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+    long long n, m, a;
+    scanf("%lld %lld %lld", &n, &m, &a);
+ 
+    long long rows = (n + a - 1) / a;
+    long long cols = (m + a - 1) / a;
+ 
+    long long flagstones = rows * cols;
+ 
+    printf("%lld\n", flagstones);
+ 
+    return 0;
+}

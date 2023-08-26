@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+ 
+int main(){
+    int t, x=0;
+    char statement[4];
+    
+    scanf("%d",&t);
+    
+    for(int i = 0; i < t; i++){
+        scanf("%s",statement);
+        
+        for (int j = 0; statement[j]; j++) {
+            statement[j] = toupper(statement[j]);
+        }
+        
+        if(strcmp(statement, "++X") == 0)
+            ++x;
+        if(strcmp(statement, "X++") == 0)
+            x++;
+        if(strcmp(statement, "--X") == 0)
+            --x;
+        if(strcmp(statement, "X--") == 0)
+            x--;
+    }
+    printf("%d",x);
+ 
+    return 0;
+}

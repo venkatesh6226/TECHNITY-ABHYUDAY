@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdbool.h>
+bool isPalindrome(int num);
+int largestPalindrome(int N);
+
+int main() {
+    int t;
+    scanf("%d", &t);
+
+    for (int i = 0; i < t; i++) {
+        int N;
+        scanf("%d", &N);
+        int result = largestPalindrome(N);
+        printf("%d\n", result);
+    }
+
+    return 0;
+}
+
+bool isPalindrome(int num) {
+    int original = num;
+    int reversed = 0;
+
+    while (num > 0) {
+        int digit = num % 10;
+        reversed = reversed * 10 + digit;
+        num /= 10;
+    }
+
+    return original == reversed;
+}
+
+// Function to find the largest palindrome product of two 3-digit numbers
+int largestPalindrome(int N) {
+    int largest = 0;
+
+    for (int i = 999; i >= 100; i--) {
+        for (int j = i; j >= 100; j--) {
+            int product = i * j;
+            if (product < N && isPalindrome(product) && product > largest) {
+                largest = product;
+            }
+        }
+    }
+
+    return largest;
+}

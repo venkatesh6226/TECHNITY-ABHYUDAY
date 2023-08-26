@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    margin: 0;
+}
+.container{
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 83.7vh;
+    overflow: hidden;
+}
+.header{
+    background-color: #dcdcdc;
+    padding: 20px 40px;
+    text-align: center;
+}
+.header h2{
+    margin: 0;
+}
+.form{
+    padding: 30px 40px;
+}
+.field{
+    margin-bottom: 10px;
+    padding-bottom: 38px;
+    position: relative;
+}
+.field label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.field input:not(.terms){
+    display: block;
+    border-radius: 4px;
+    border:2px solid #f0f0f0;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+.field span{
+    position: absolute;
+    top:30px;
+    right: 10px;
+    visibility: hidden;
+}
+.field small{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    visibility: hidden;
+}
+.adjust small{
+    bottom: 5px;
+}
+.form .button{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+.button:active{
+    background-color: white;
+    color: #000000;
+}
+.field.success input{
+    border-color: #2ecc71;
+}
+.field.error input{
+    border-color: #e74c3c;
+}
+.field.success span.success{
+    color: #2ecc71;
+    visibility: visible;
+}
+.field.error span.error{
+    color: #e74c3c;
+    visibility: visible;
+}
+.field.error span.success{
+    visibility: none;
+}
+.field.succes span.error{
+    visibility: none;
+}
+.field.error small{
+    visibility: visible;
+    color: #e74c3c;
+}
+

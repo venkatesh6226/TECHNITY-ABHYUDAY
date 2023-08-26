@@ -1,0 +1,42 @@
+#include <stdio.h>
+long largestPrimeFactor(long num);
+
+int main() {
+    int t;
+    scanf("%d", &t);
+
+    for (int i = 0; i < t; i++) {
+        long num;
+        scanf("%ld", &num);
+
+        long result = largestPrimeFactor(num);
+        printf("%ld\n", result);
+    }
+
+    return 0;
+}
+
+long largestPrimeFactor(long num) {
+    long largestFactor = 0;
+
+    // Divide the number by 2 until it's no longer divisible
+    while (num % 2 == 0) {
+        largestFactor = 2;
+        num /= 2;
+    }
+
+    // After the above loop, num must be odd, so we start from 3 and check odd factors
+    for (long i = 3; i * i <= num; i += 2) {
+        while (num % i == 0) {
+            largestFactor = i;
+            num /= i;
+        }
+    }
+
+    // If the remaining num is a prime greater than 2
+    if (num > 2) {
+        largestFactor = num;
+    }
+
+    return largestFactor;
+}

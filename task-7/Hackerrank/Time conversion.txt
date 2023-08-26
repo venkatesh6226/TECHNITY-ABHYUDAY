@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char time[11];
+    scanf("%s", time);
+
+    int hours, minutes, seconds;
+    char meridiem[3];
+
+    sscanf(time, "%d:%d:%d%s", &hours, &minutes, &seconds, meridiem);
+
+    if (strcmp(meridiem, "PM") == 0 && hours != 12) {
+        hours += 12;
+    } else if (strcmp(meridiem, "AM") == 0 && hours == 12) {
+        hours = 0;
+    }
+
+    printf("%02d:%02d:%02d\n", hours, minutes, seconds);
+
+    return 0;
+}
