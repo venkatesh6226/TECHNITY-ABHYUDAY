@@ -40,25 +40,25 @@
 8. A condition is an expression used in control flow statements which evaluates to a boolean value. Based on the boolean value it executes or skips the control flow block.
 
 9.  Block 1:  
-        print('eggs')  
-        if spam > 5:  
-            print('bacon')  
-        else:  
-            print('ham')  
-        print('spam')  
+    &emsp;print('eggs')  
+    &emsp;if spam > 5:  
+    &emsp;&emsp;print('bacon')  
+    &emsp;else:  
+    &emsp;&emsp;print('ham')  
+    &emsp;print('spam')  
     
     Block 2:  
-         print('bacon')  
+    &emsp;print('bacon')  
 
     Block 3:  
-        print('ham')
+    &emsp;print('ham')
 
 10.  if spam == '1':  
-        print('Hello')  
-    elif spam == '2':  
-        print('Howdy')  
-    else:  
-        print('Greetings!')
+     &emsp;print('Hello')  
+     elif spam == '2':  
+     &emsp;print('Howdy')  
+     else:  
+     &emsp;print('Greetings!')
 
 11. CTRL+C can be used to stop a program.
 
@@ -67,13 +67,13 @@
 13. They all do the same thing. range(10) tells that the total no.of iterations are 10(0 to 9) with default start point(0) and with a default increase of 1 per iteration. range(0,10) tells that start point is 0, total no.of iterations are 10(0 to 9) with a default increase of 1 per iteration. range(0,10,1) tells that start point is 0, total iteration are 10(0 to 9), increase of 1 per iteration.
 
 14. #Using for loop  
-        for i in range(1, 11):  
-            print(i)  
+    &emsp;for i in range(1, 11):  
+    &emsp;&emsp;print(i)  
 
     #using while loop  
-        i = 1  
-        while i <= 10:  
-            print(i)  
-            i = i + 1
+    &emsp;i = 1  
+    &emsp;while i <= 10:  
+    &emsp;&emsp;print(i)  
+    &emsp;&emsp;i = i + 1
 
 15. spam.bacon()
