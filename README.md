@@ -1,5 +1,5 @@
-| Task list | Info | Status |
-| :-:       | :-:  | :-:    |
+| Tasks | Info | Status |
+| :-:   | :-:  | :-:    |
 | [Task 1](https://github.com/venkatesh6226/technity-tasks/tree/main/task-1) | Landing Page | Completed |
 | [Task 2](https://github.com/venkatesh6226/technity-tasks/tree/main/task-2) | Full length website | Completed |
 | [Task 3](https://github.com/venkatesh6226/technity-tasks/tree/main/task-3) | JS Form Validation | Completed |
