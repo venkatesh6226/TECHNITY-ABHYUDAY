@@ -1,1 +1,1 @@
-![Diagnol difference](https://github.com/venkatesh6226/technity-tasks/assets/117913588/9d8f6aaf-d1f7-432a-af8e-ff59b12d37c2)
+![Diagnol difference](https://github.com/venkatesh6226/TECHNITY-ABHYUDAY/assets/117913588/5e3cf416-2143-4aad-bf94-dd81969ba378)
