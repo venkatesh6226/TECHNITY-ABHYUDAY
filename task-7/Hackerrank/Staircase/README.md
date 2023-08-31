@@ -1,1 +1,1 @@
-![Staircase](https://github.com/venkatesh6226/technity-tasks/assets/117913588/c01ec625-9604-47bd-9ada-94cc0f37c98d)
+![Staircase](https://github.com/venkatesh6226/TECHNITY-ABHYUDAY/assets/117913588/7ebdffe7-5e76-4b1d-ac70-035b9213596a)
