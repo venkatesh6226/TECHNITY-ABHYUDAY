@@ -1,1 +1,1 @@
-![codeforce](https://github.com/venkatesh6226/technity-tasks/assets/117913588/c54f5e6b-c055-4530-840a-0eff47ed1ada)
+![codeforce](https://github.com/venkatesh6226/TECHNITY-ABHYUDAY/assets/117913588/1cd35633-6a9d-497a-b2f7-93e7e39a0f6f)
