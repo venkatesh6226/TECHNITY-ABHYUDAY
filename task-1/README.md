@@ -1,1 +1,1 @@
-![Task1 screenshot](https://github.com/venkatesh6226/TECHNITY-ABHYUDAY/assets/117913588/20dbdc45-7a98-4e87-a0c0-45016f22d774)
+![Task1 screenshot](https://github.com/venkatesh6226/TECHNITY-ABHYUDAY/assets/117913588/8af7cd87-f137-4ee9-a351-4552ed414d6f)
