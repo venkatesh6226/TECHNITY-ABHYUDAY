@@ -1,1 +1,1 @@
-![Compare the triplets](https://github.com/venkatesh6226/technity-tasks/assets/117913588/c245afd8-f132-41bf-8fa6-3fa41890bcec)
+![Compare the triplets](https://github.com/venkatesh6226/TECHNITY-ABHYUDAY/assets/117913588/59d779c1-2d62-4c85-99ca-8ea7e13ac405)
